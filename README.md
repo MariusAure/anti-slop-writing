@@ -20,7 +20,7 @@ The file contains 40+ rules organized into four sections:
 - Orwell, "Politics and the English Language" (1946)
 - Strunk & White, "The Elements of Style"
 - Gemini 3.1 Pro Deep Research on 16.03.2026. https://gemini.google.com/share/1a62000695ed
-- ChatGPT 5.4 Thinking Extended Thinking Deep Research16.03.2026. https://chatgpt.com/share/69b7d0af-de48-800a-8850-bfda9ccd08d0
+- ChatGPT 5.4 Thinking Extended Thinking Deep Research 16.03.2026. https://chatgpt.com/share/69b7d0af-de48-800a-8850-bfda9ccd08d0
 - Claude Opus 4.6 Extended Research with same prompt as the others 16.03.2026. But I can't share it since "Chats using advanced research can't be shared"
 
 ## Contributing
