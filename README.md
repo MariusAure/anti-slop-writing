@@ -23,7 +23,7 @@ The file contains 40+ rules organized into four sections:
 
 ## Contributing
 
-Open an issue or pull request. New rules should have a cited source such as a published style guide, an academic paper, a Wikipedia policy page, or an editorial standard with identifiable author and date. Unsourced opinions about what "sounds like AI" will also be considered!
+Open an issue or pull request. Anything that works, that makes the AI writing less bad is welcome. I like citations to a source but also opinions about what "sounds like AI" will be considered.
 
 ## License
 
