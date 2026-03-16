@@ -29,7 +29,7 @@ Open an issue or pull request. New rules should have a cited source such as a pu
 
 ## License
 
-MIT
+MIT, aka "do whatever you want with this".
 
 ## Author
 
