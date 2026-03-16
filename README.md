@@ -1,6 +1,6 @@
 # Anti-Slop Writing
 
-A system prompt that reduces bad AI writing patterns in LLM output. Add [`writing.md`](writing.md) to your Claude Code projects or copy into your system prompt. The output should read less like a machine wrote it.
+A system prompt that reduces bad AI writing patterns in LLM output. Add [`writing.md`](writing.md) to your Claude Code projects or copy into your system prompt. The output should read less like AI slop. I hope.
 
 ## What it does
 
