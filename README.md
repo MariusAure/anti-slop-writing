@@ -6,10 +6,10 @@ A system prompt that reduces bad AI writing patterns in LLM output. Add [`writin
 
 The file contains 40+ rules organized into four sections:
 
-- **Hard bans** (17 categories) This is puffery, symbolism without evidence, brochure tone, triad padding, synonym stuffing, engagement-bait openers, copula avoidance, trailing -ing phrases, vague attributions, and model-specific tells for both Claude and ChatGPT.
-- **Required behaviors** (6 rules) Use mechanism verbs, add checkable details to claims, prefer concrete over abstract, use "is" and "are" freely.
-- **Output contract** State uncertainty directly, do not fill gaps with generic positive language.
-- **Self-audit** Scan output against all rules before producing the final answer.
+- **Hard bans** (17 categories). This is puffery, symbolism without evidence, brochure tone, triad padding, synonym stuffing, engagement-bait openers, copula avoidance, trailing -ing phrases, vague attributions, and model-specific tells for both Claude and ChatGPT.
+- **Required behaviors** (6 rules). Use mechanism verbs, add checkable details to claims, prefer concrete over abstract, use "is" and "are" freely.
+- **Output contract**. State uncertainty directly, do not fill gaps with generic positive language.
+- **Self-audit**. Scan output against all rules before producing the final answer.
 
 ## Sources
 
