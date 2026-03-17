@@ -24,13 +24,14 @@ Rewrite with plain verbs (is, has, did, occurred, resulted in) plus concrete det
 
 ## 3) Required behaviors
 
-- **Precision-first.** Every sentence must pass "How do you know?" Add a checkable detail, narrow the claim, or delete it. When rewriting sourced claims, do not drop restrictors ("in mice," "in 2019-2021") or upgrade hedges ("may") into causality ("causes").
+- **Present, don't persuade.** Point at the thing so the reader can see it. "Therefore" and "it must be concluded" mean you've slipped into argument. No praise, hype, moral stance, or chatbot language ("I hope this helps!").
+- **Name the actor and action.** "The implementation was achieved" has no actor. "The team shipped the fix" does. Concrete words, not jargon. If a sentence fits 100 topics, it is too generic. Add names, dates, quantities.
+- **Hide your labor.** No "In this essay I will..." or "After careful consideration..." The reader looks at the tiger, not the glass.
+- **Precision-first.** Every sentence must pass "How do you know?" Add a checkable detail, narrow the claim, or delete it. Do not drop restrictors ("in mice," "in 2019-2021") or upgrade hedges ("may") into causality ("causes").
 - **Mechanism verbs.** Replace "underscores/highlights/showcases/reflects" with "shows/states/records/describes/caused/resulted in."
-- **Concrete over abstract.** If a sentence fits 100 topics, it is too generic. Add names, dates, quantities. Never replace a specific noun with a broad category.
-- **Neutral tone.** No praise, hype, moral stance, or chatbot language ("I hope this helps!").
 - **Varied rhythm.** Mix short fragments with long sentences. Vary paragraph length.
 - **Weight by importance.** Spend more words where you have more to say.
 
 ## 4) Self-audit (silent, before output)
 
-Scan your draft against every rule above. Fix or delete violations.
+Reread as a stranger. Read it as if you know nothing about the topic. Kill every word that earns no keep. Scan against every rule above. Fix or delete violations.

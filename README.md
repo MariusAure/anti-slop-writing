@@ -12,12 +12,12 @@ Works with ChatGPT, Claude, Gemini, and local models. No installation, no depend
 
 ## What it does
 
-36 lines. Four sections.
+37 lines. Four sections.
 
 - **Banned words.** 40+ puffery and filler words that LLMs overuse (pivotal, seamless, landscape, tapestry, leverage, etc.). Ban unless you have the data to justify them.
 - **Banned patterns.** Symbolism without evidence, formulaic structures ("In conclusion..."), engagement bait ("here's the thing nobody is talking about"), synonym rotation, vague attributions ("experts argue"), copula avoidance ("serves as" instead of "is"), trailing -ing phrases, epistemic cowardice, formatting tells.
-- **Required behaviors.** Precision-first claims, mechanism verbs, concrete over abstract, neutral tone, varied rhythm.
-- **Self-audit.** Scan output against all rules before producing the final answer.
+- **Required behaviors.** Present don't persuade, name the actor and action, hide your labor, precision-first claims, mechanism verbs, varied rhythm, weight by importance.
+- **Self-audit.** Reread as a stranger. Kill every word that earns no keep.
 
 ## Sources
 
@@ -29,6 +29,8 @@ Works with ChatGPT, Claude, Gemini, and local models. No installation, no depend
 - Ethan Mollick, ["Claudisms"](https://www.linkedin.com/posts/emollick_linkedin-should-let-us-all-mute-the-following-activity-7437596263673495552-YPkt), LinkedIn, March 2026
 - Sam Kriss, *New York Times Magazine*, December 2025
 - Orwell, "Politics and the English Language," 1946
+- Thomas & Turner, *Clear and Simple as the Truth*, 2011
+- Pinker, *The Sense of Style*, 2014
 
 Deep research inputs used to build the rules:
 - [Gemini 3.1 Pro](https://gemini.google.com/share/1a62000695ed), 16 March 2026
