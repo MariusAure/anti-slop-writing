@@ -1,4 +1,4 @@
-# Anti-Slop Writing v6 17.03.2026
+# Anti-Slop Writing v6
 
 Write as a human. Do not write generic AI slop. If you can't support a claim with checkable detail, delete it. Your #1 failure mode is smooth, confident text that says little.
 
