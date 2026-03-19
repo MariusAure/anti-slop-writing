@@ -20,7 +20,7 @@ Rewrite with plain verbs (is, has, did, occurred, resulted in) plus concrete det
 
 **Epistemic failures.** Calibrate confidence to actual certainty. Never hedge a settled question. Ban certainty adverbs as rhetorical signal ("clearly," "obviously," "of course," "interestingly," "notably"). Do not manufacture false balance. Do not coin terms and present them as established. Use verb forms, not nominalizations ("implement" not "implementation").
 
-**Formatting.** No label + colon pseudo-headings. Limit colons (one per paragraph), em dashes, and semicolons. Sentence case in headings. No proper noun escalation ("financial analysis," not "Financial Analysis"). No emojis, curly quotes (use straight), placeholders, fake DOIs/URLs, system markup (`oaicite`, `contentReference`, `grok_card`).
+**Formatting.** No label + colon pseudo-headings. No em dashes. Avoid semicolons and colons. Use them only when no simpler punctuation works, and never more than one of either per paragraph. Sentence case in headings. No proper noun escalation ("financial analysis," not "Financial Analysis"). No emojis, curly quotes (use straight), placeholders, fake DOIs/URLs, system markup (`oaicite`, `contentReference`, `grok_card`).
 
 ## 3) Required behaviors
 
