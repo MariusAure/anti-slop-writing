@@ -1,45 +1,47 @@
 # Anti-Slop Writing
 
-A system prompt that reduces AI writing patterns in LLM output. Add [`writing.md`](writing.md) to your Claude Code projects or copy it into your system prompt. I hope the output reads less like AI slop.
+An all-purpose diagnostic-and-revision prompt for LLM writing. Add [`writing.md`](writing.md) to a Claude Code project or copy it into a system prompt, custom instruction, or project context. It helps models make prose clear, accurate, and useful without turning every genre into the same flat "human" voice.
 
 ## How to use it
 
-1. Copy the contents of [`writing.md`](writing.md).
+1. Copy [`writing.md`](writing.md).
 2. Paste it into your LLM's system prompt, custom instructions, or project context.
-3. Write your prompt as normal.
+3. Give the model a normal writing or editing request.
 
-Works with ChatGPT, Claude, Gemini, and local models. No installation, no dependencies.
+Works with ChatGPT, Claude, Gemini, and local models. No installation or dependencies.
 
 ## What it does
 
-37 lines. Four sections.
+The prompt treats common AI tells as diagnostic signals, not universal bans. It asks the model to:
 
-- **Banned words.** 40+ puffery and filler words that LLMs overuse (pivotal, seamless, landscape, tapestry, leverage, etc.). Ban unless you have the data to justify them.
-- **Banned patterns.** Symbolism without evidence, formulaic structures ("In conclusion..."), engagement bait ("here's the thing nobody is talking about"), synonym rotation, vague attributions ("experts argue"), copula avoidance ("serves as" instead of "is"), trailing -ing phrases, epistemic cowardice, formatting tells.
-- **Required behaviors.** Present don't persuade, name the actor and action, hide your labor, precision-first claims, mechanism verbs, varied rhythm, weight by importance.
-- **Self-audit.** Reread as a stranger. Kill every word that earns no keep.
+- start with the reader and the job to be done;
+- use a concrete avoid list to find generic phrasing, vague abstraction, canned warmth, and unsupported intensity;
+- test suspect sentences for meaning, fungibility, evidence, and genre fit;
+- preserve uncertainty and factual scope, and flag hollow spans instead of inventing detail;
+- use structure, voice, and punctuation when they help the requested form; and
+- revise silently unless the user asks for an explanation or change log.
 
-## Sources
+The result should be more specific and readable, not merely less detectable. A neutral support article and a personal essay have different jobs; the prompt makes room for both.
 
+## Sources and design basis
+
+- Steph Zinn, ["The habits of AI writing — and what to do about them"](https://a16zcrypto.substack.com/p/the-habits-of-ai-writing-and-what), a16z crypto, 2026
+- [OpenAI model guidance: prompting best practices](https://developers.openai.com/api/docs/guides/latest-model) -- keep prompts lean, state requirements once, and evaluate representative tasks.
+- [Anthropic prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) -- provide clear task context and use relevant, diverse examples for reliable style control.
+- [Agent Skills best practices](https://agentskills.io/skill-creation/best-practices) -- include only high-signal instructions and refine them through real execution.
+- [de-slop](https://github.com/isatimur/de-slop) -- fidelity-first editing: identify hollow spans and do not fabricate details to improve them.
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 - Kobak et al., "Delving into LLM-assisted writing," *Science Advances*, 2025. [Dataset](https://github.com/berenslab/llm-excess-vocab)
 - Geng & Trotta, "Human-LLM Coevolution," ACL, 2025
 - Reinhart et al., "Do LLMs Write Like Humans?" *PNAS*, 2025
 - Walters & Wilder, "Fabrication and errors in LLM citations," *Scientific Reports*, 2023
-- Ethan Mollick, ["Claudisms"](https://www.linkedin.com/posts/emollick_linkedin-should-let-us-all-mute-the-following-activity-7437596263673495552-YPkt), LinkedIn, March 2026
-- Sam Kriss, *New York Times Magazine*, December 2025
 - Orwell, "Politics and the English Language," 1946
 - Thomas & Turner, *Clear and Simple as the Truth*, 2011
 - Pinker, *The Sense of Style*, 2014
 
-Deep research inputs used to build the rules:
-- [Gemini 3.1 Pro](https://gemini.google.com/share/1a62000695ed), 16 March 2026
-- [ChatGPT 5.4](https://chatgpt.com/share/69b7d0af-de48-800a-8850-bfda9ccd08d0), 16 March 2026
-- Claude Opus 4.6 (can't share advanced research chats), 16 March 2026
-
 ## Contributing
 
-Open an issue or pull request. Anything that makes AI writing less bad is welcome. Citations to a source are preferred, but opinions about what "sounds like AI" will be considered too.
+Open an issue or pull request. Prefer changes supported by a source or a repeatable before-and-after example. The standard is better writing for a real reader, not a longer list of things that look like AI.
 
 ## License
 
