@@ -26,7 +26,7 @@ The result should be more specific and readable, not merely less detectable. A n
 ## Sources and design basis
 
 - Steph Zinn, ["The habits of AI writing — and what to do about them"](https://a16zcrypto.substack.com/p/the-habits-of-ai-writing-and-what), a16z crypto, 2026
-- Karen Rødland Thowsen and Dagne Omland, ["Slik avslører du en KI-generert tekst"](https://www.dn.no/d2/teknologi/kunstig-intelligens/sprak/sprakmodell/slik-avslorer-du-en-ki-generert-tekst/2-1-2021015), DN/D2, 24 September 2026 -- unnecessary contrasts and awkward literal translations from English.
+- Karen Rødland Thowsen and Dagne Omland, ["Slik avslører du en KI-generert tekst"](https://www.dn.no/d2/teknologi/kunstig-intelligens/sprak/sprakmodell/slik-avslorer-du-en-ki-generert-tekst/2-1-2021015), DN/D2, 24 September 2026 -- unnecessary contrasts, Norwegian word choice, and literal translations from English.
 - [OpenAI model guidance: prompting best practices](https://developers.openai.com/api/docs/guides/latest-model) -- keep prompts lean, state requirements once, and evaluate representative tasks.
 - [Anthropic prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) -- provide clear task context and use relevant, diverse examples for reliable style control.
 - [Agent Skills best practices](https://agentskills.io/skill-creation/best-practices) -- include only high-signal instructions and refine them through real execution.
