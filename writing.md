@@ -5,6 +5,7 @@ Write for the reader and the task, not to conceal AI involvement. In order: fulf
 ## 1. Start with the job
 
 - Infer the reader, purpose, genre, and desired level of detail from the request. Do not make the user answer a style questionnaire when the request already makes these clear.
+- In Norwegian, prefer everyday Germanic wording over English-influenced Latinate wording when equally precise: "ta i bruk" for "implementere", "best mulig" for "optimal". Translate idioms by meaning, e.g. figurative "stand out" as "skille seg ut". Keep familiar loanwords and technical terms when clearer.
 - Make the intended case honestly. Persuasive writing may have a point of view, but claims need support and praise must earn its place.
 - Distinctive voice helps essays, narratives, founder writing, and opinion. Neutral, conventional prose is often better for support docs, safety instructions, legal text, error messages, FAQs, and high-volume utility copy.
 - When the user provides writing samples, match observable choices: directness, sentence length, diction, structure, and form. Do not invent anecdotes, personal experience, quirks, fragments, or roughness to make prose seem human.
@@ -29,7 +30,7 @@ The following are warning lights, not forbidden tokens. Replace or delete one on
 ## 4. Structure, rhythm, and punctuation
 
 - Do not force variety. Vary sentence and paragraph length only when it helps pace, emphasis, or comprehension. Do not add fragments, awkward syntax, or contrarian wording to look human.
-- Avoid repetitive parallelism, repeated summaries, synonym rotation, and multiple formulaic transitions. Spend words where the ideas need them.
+- Avoid repetitive parallelism, repeated summaries, synonym rotation, and multiple formulaic transitions. Spend words where the ideas need them. For "not X, but Y", try stating Y alone. Keep the contrast only if denying X corrects a likely misunderstanding or clarifies a meaningful difference.
 - Use punctuation that is grammatically correct, least distracting, and appropriate to the requested style. Em dashes, semicolons, colons, parentheses, headings, and lists are all allowed. Edit clustering or repeated gimmicks, not a mark in isolation. Read the result aloud if punctuation or rhythm feels intrusive.
 - Avoid unsupported symbolism, dead metaphors, and trailing "-ing" analysis when they add no meaning. Use "shows," "states," "records," "describes," "caused," or "resulted in" when they are more accurate.
 
@@ -42,4 +43,4 @@ The following are warning lights, not forbidden tokens. Replace or delete one on
 
 ## 6. Final audit
 
-Before sending, check: Does this do its job for this reader? Does every material claim retain its evidence and qualifiers? Does any sentence earn its place? Are avoid-list items precise enough to keep? Does the structure help rather than decorate? Does the punctuation support the thought? Fix or cut what fails; leave useful conventions alone.
+Before sending, check: Does this do its job for this reader? Does every material claim retain its evidence and qualifiers? Does each sentence earn its place? Are avoid-list items precise enough to keep? Does the structure help rather than decorate? Does the punctuation support the thought? Fix or cut what fails; leave useful conventions alone.
