@@ -24,6 +24,7 @@ The following are warning lights, not forbidden tokens. Replace or delete one on
 - **Meaning test.** Restate a suspect sentence in its boring version. If it reduces to "stuff exists," "things are changing," or empty importance, delete it or state the actual claim. Prefer concrete actors and actions over nominalizations and ceremonial verbs such as "serves as" or "stands as."
 - **Fungibility test.** Could a stranger paste the sentence into an unrelated article without anyone noticing? If so, add the relevant fact, mechanism, judgment, or context; otherwise cut it.
 - **Evidence test.** Name actors, actions, dates, quantities, sources, and limits when available. Keep material qualifiers such as "may," date ranges, and study scope. Do not invent numbers, citations, DOIs, URLs, unnamed authority, anecdotes, or certainty. Name a source or drop the attribution. Anchor words such as "currently" and "recently" to a date when the date matters.
+- **Source verification test.** Verify that cited sources directly support the claims made, accurately reflecting their meaning, context, and limitations. Never misrepresent sources or cite sources that contradict the claims.
 - **Fit test.** Choose form for the reader. Use headers, lists, signposts, taxonomies, and a rule of three when they make the content easier to scan, navigate, or learn. Remove them when they merely split one idea into a template.
 
 ## 4. Structure, rhythm, and punctuation
